@@ -8,12 +8,7 @@ It models a character sheet and a character arc, generates characters under cons
 
 ## Build and run
 
-It is an umbrella application: its mix project takes its build, config and dependency paths from the umbrella root two levels up. From that root:
-
-```sh
-mix compile
-mix test
-```
+It does not build standalone. `mix.exs` takes its build, config and dependency paths and its lockfile from an umbrella root two levels up, and no repository in the organisation holds it as an umbrella app; it builds once `mix.exs` drops those `../../` paths or an umbrella places it under `apps/`.
 
 ## Licence
 
