@@ -12,4 +12,4 @@ It does not build standalone. `mix.exs` takes its build, config and dependency p
 
 ## Licence
 
-The repository has no LICENSE file, so the code's licence is not stated. The reference documents it carries are under Creative Commons Attribution.
+MIT. See [LICENSE](LICENSE). The reference documents it carries are under Creative Commons Attribution.
